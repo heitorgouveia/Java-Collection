@@ -13,4 +13,10 @@ public class Tarefas{
         return descricao;
     }
 
+    public String toString(){
+        return "Tarefas{" + 
+        "descricao ='" + descricao + '\'' + 
+        '}';
+    }
+
 }
